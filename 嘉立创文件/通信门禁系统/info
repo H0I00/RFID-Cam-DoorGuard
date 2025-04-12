@@ -1,0 +1,250 @@
+{
+  "uuid": "0d14826f75947762c552dba5c4228e34",
+  "path": "Offline/通信门禁系统",
+  "name": "通信门禁系统",
+  "content": "New Project",
+  "created_at": "2025-03-11 12:11:23",
+  "updated_at": "2025-04-12 15:35:24",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "3d84ccd24d0e2f25dcddaae746f4b8d4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "36912acabaef4861b0cbc126ec0927e0": 1,
+        "d50e09bc217f41f2a9f063812c356468": 1,
+        "9895476d1e4c42c2b663907265ff82c5": 1,
+        "b2a0b134445b41328388200a6421b674": 1,
+        "af66db16ae014a398b9dae364d3df2a5": 1,
+        "4ddfd530cf2448a794676b8382facc78": 1,
+        "b3c024376a774bb9a7742d2909eb0e0b": 1,
+        "39c2282c08c64429b91dc51f3bd7d515": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "有源蜂鸣器模块",
+          1,
+          "有源蜂鸣器模块",
+          "BEEP",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "Rysim",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP8266-01S",
+          1,
+          "WIFIM-TH_ESP8266-01S",
+          "ESP-01S",
+          {
+            "Manufacturer Part": "ESP8266-01S",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900150497"
+          }
+        ],
+        [
+          "K2-1101DT-A4SW-01",
+          1,
+          "SW-TH_L6.0-W3.3-P6.50",
+          "KEY",
+          {
+            "Manufacturer Part": "K2-1101DT-A4SW-01黑色",
+            "Manufacturer": "韩国韩荣",
+            "Supplier": "LCSC",
+            "Supplier Part": "C136742"
+          }
+        ],
+        [
+          "0.96OLED_4P_MODULE_JX",
+          1,
+          "0.96OLED_4P",
+          "OLED",
+          {
+            "Manufacturer Part": "0.96OLED_4P_MODULE_JX",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900004566"
+          }
+        ],
+        [
+          "ov2640-01",
+          1,
+          "OV2640-1",
+          "OV2640",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "MFRC522",
+          1,
+          "MFRC522",
+          "RC522",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "3P PH2.54",
+          1,
+          "CONN-TH_3P-P2.50_3PIN",
+          "SG90",
+          {
+            "Manufacturer Part": "3P PH2.54",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900006188"
+          }
+        ],
+        [
+          "LCKFB-DKX-STM32F103C8T6",
+          1,
+          "CONN-TH_L53.3-W22.9_STM32F103C8T6-CARD",
+          "STM32F103CBT6",
+          {
+            "Manufacturer Part": "LCKFB-DKX-STM32F103C8T6",
+            "Manufacturer": "立创开发板",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22396880"
+          }
+        ]
+      ],
+      "updateTime": 1743246573,
+      "createTime": 1741666283,
+      "histories": [],
+      "created_at": "2025-03-11 12:11:23",
+      "updated_at": "2025-03-29 19:09:33"
+    },
+    {
+      "uuid": "4e302dc84e0722da6faa3f3daa1ab3d8",
+      "puuid": "0d14826f75947762c552dba5c4228e34",
+      "title": "PCB_通信门禁系统",
+      "filename": "PCB_通信门禁系统.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "caaced21be424da4bfe3626b093fe962": 1,
+        "258dd14ed3794eca9bd514aadb7c9ceb": 1,
+        "eb8f4877363c47d092355733ead7d3f4": 1,
+        "88b7b62f56d14ce0a65d98c420c09d52": 1,
+        "ed4e1037edb34b069ba9bd8516523add": 1,
+        "f80317cf6307406e9f9d435c2b3221dd": 1,
+        "91331667409749248714273d39d5511d": 1,
+        "77534d8154e848a1a01d4c9c3c95520e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "3P PH2.54",
+          1,
+          "CONN-TH_3P-P2.50_3PIN",
+          "CN1",
+          {
+            "Manufacturer Part": "3P PH2.54",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900006188"
+          }
+        ],
+        [
+          "0.96OLED_4P_MODULE_JX",
+          1,
+          "0.96OLED_4P",
+          "OLED1",
+          {
+            "Manufacturer Part": "0.96OLED_4P_MODULE_JX",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900004566"
+          }
+        ],
+        [
+          "RC522",
+          1,
+          "RFID-RC522A-MODULE",
+          "RFID1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LCKFB-DKX-STM32F103C8T6",
+          1,
+          "CONN-TH_L53.3-W22.9_STM32F103C8T6-CARD",
+          "U1",
+          {
+            "Manufacturer Part": "LCKFB-DKX-STM32F103C8T6",
+            "Manufacturer": "立创开发板",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22396880"
+          }
+        ],
+        [
+          "ov2640-01",
+          1,
+          "OV2640-1",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP8266-01S",
+          1,
+          "WIFIM-TH_ESP8266-01S",
+          "U3",
+          {
+            "Manufacturer Part": "ESP8266-01S",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900150497"
+          }
+        ]
+      ],
+      "updateTime": 1744443324,
+      "createTime": 1741965912,
+      "histories": [],
+      "created_at": "2025-03-14 23:25:12",
+      "updated_at": "2025-04-12 15:35:24"
+    }
+  ],
+  "sort": [],
+  "title": "通信门禁系统",
+  "foldername": "通信门禁系统",
+  "schfilename": "通信门禁系统.json",
+  "schfilemtime": 1743246573740
+}
